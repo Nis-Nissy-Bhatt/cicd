@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage("compile"){
             steps{
-                sh 'javac Lion.java'
+                bat 'javac Lion.java'
             }
         }
         stage("run"){
             steps{
-                sh "java Lion"
+                bat"java Lion"
             }
         }
     }
