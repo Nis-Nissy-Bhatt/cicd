@@ -3,5 +3,6 @@ class Lion{
     {
         System.out.println("hello world");
         System.out.println("apple");
+        //from nishtha
     }
 }
